@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="regist.css" />
+  </head>
+  <body>
+        <section id="booking">
+                <h2>Book Your Adventure</h2>
+                <form action="#" method="post">
+
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="john@email.com" required>
+
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+243 990 000 000" required>
+
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country" placeholder="DR Congo" required>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Booking Details</legend>
+                        <label for="activity">Choose Activity</label>
+                        <select id="activity" name="activity" required>
+                            <option value="">-- Select an Activity --</option>
+                            <option value="volcano">Volcano Hiking</option>
+                            <option value="food">Local Food & Culture</option>
+                            <option value="safari">Virunga Safari</option>
+                            <option value="lake">Lake Kivu Boat Tour</option>
+                        </select>
+
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
+
+                        <label for="group">Number of People</label>
+                        <input type="number" id="group" name="group" min="1" max="20" placeholder="1" required>
+                    </fieldset>
+                
+                    <fieldset>
+                        <legend>Additional Info</legend>
+                        <label for="message">Special Requests</label>
+                        <textarea id="message" name="message" rows="4" 
+                        placeholder="Any dietary needs, accessibility requirements, etc."></textarea>
+
+                        <label for="source">How did you hear about us?</label>
+                        <select id="source" name="source">
+                            <option value="">-- Select --</option>
+                            <option value="social">Social Media</option>
+                            <option value="friend">Friend / Family</option>
+                            <option value="google">Google Search</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </fieldset>
+
+                    <button type="submit" class="book-btn">Confirm Booking</button>
+                </form>
+        </section>
+  </body>
+</html>

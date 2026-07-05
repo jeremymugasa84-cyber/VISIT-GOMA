@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(goma.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#booking {
+    padding: 15px 40px 50px;
+    border: none;
+    border-radius: 60px;
+    background: #faf6f0;
+    text-align: center;
+    width: 30%;
+    min-width: 400px;
+    margin: 50px auto;
+}
+
+#booking h2 {
+    font-size: 40px;
+    color: #1B6B73;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+fieldset {
+    border: 1px solid #1B6B73;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+legend {
+    color: #1B6B73;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    color: #1B6B73;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 14px 18px;
+    border: 2px solid #d1eaea;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #1B6B73;
+    background-color: #9fd0d3;  
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #ec3616;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 1px rgba(236, 54, 22, 0.15);
+}
+
+.book-btn {
+    display: block;
+    width: 100%;
+    background-color: #1B6B73;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: 0px 6px 20px rgba(27, 107, 115, 0.4);
+    transition: 0.3s;
+    margin-top: 10px;
+
+}
+
+.book-btn:hover {
+    background-color: #ec3616;
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 25px rgba(236, 54, 22, 0.4);
+}
